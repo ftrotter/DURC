@@ -10,12 +10,12 @@
 		"mysql",
 		"mariadb"
     ],
-    "homepage": "https://github.com/CareSet/DURC",
+    "homepage": "https://github.com/ftrotter/DURC",
     "authors": [
         {
             "name": "Fred Trotter",
             "email": "fred.trotter@gmail.com",
-            "homepage": "https://www.careset.com",
+            "homepage": "https://www.fredtrotter.com",
             "role": "Developer"
         }
     ],
@@ -30,7 +30,7 @@
     },
     "psr-4": {
             "App\\": "app/",
-            "ftrotter\\DURC\\": "packages/careset/durc/src"
+            "ftrotter\\DURC\\": "packages/ftrotter/durc/src"
     },
     "autoload": {
 	"psr-4": {
