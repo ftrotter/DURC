@@ -1,5 +1,5 @@
 {
-    "name": "careset/durc",
+    "name": "ftrotter/durc",
     "description": "DURC is reverse CRUD",
     "type": "library",
     "license": "MIT",
@@ -30,11 +30,11 @@
     },
     "psr-4": {
             "App\\": "app/",
-            "CareSet\\DURC\\": "packages/careset/durc/src"
+            "ftrotter\\DURC\\": "packages/careset/durc/src"
     },
     "autoload": {
 	"psr-4": {
-		"CareSet\\DURC\\": "src/"
+		"ftrotter\\DURC\\": "src/"
 	}
     },
     "post-update-cmd": [
@@ -43,7 +43,7 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"CareSet\\DURC\\DURCServiceProvider"
+				"ftrotter\\DURC\\DURCServiceProvider"
 			]
 		}
 	},
