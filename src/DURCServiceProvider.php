@@ -23,7 +23,11 @@ class DURCServiceProvider extends ServiceProvider
     public function register()
     {
         // Load the durc config file and merge it with the user's
-        $this->mergeConfigFrom( '/var/www/html/DURC/config/durc.php', 'durc' );
+        $this->mergeConfigFrom( __DIR__.'/../config/durc.php', 'durc' );
+
+        $this->publishes([
+            __DIR__.'/../config/durc.php' => config_path('durc.php'),
+        ]);
 
             $this->commands([
                 DURCCommand::class,
