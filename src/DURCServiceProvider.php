@@ -1,6 +1,6 @@
 <?php
 
-namespace CareSet\DURC;
+namespace ftrotter\DURC;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -23,7 +23,7 @@ class DURCServiceProvider extends ServiceProvider
     public function register()
     {
         // Load the durc config file and merge it with the user's
-        $this->mergeConfigFrom( base_path( 'vendor/careset/durc/config/durc.php' ), 'durc' );
+        $this->mergeConfigFrom( '/var/www/html/DURC/config/durc.php', 'durc' );
 
             $this->commands([
                 DURCCommand::class,

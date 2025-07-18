@@ -3,16 +3,16 @@
 	This generateds the static mustache menu for each file..
 
 */
-namespace CareSet\DURC\Generators;
+namespace ftrotter\DURC\Generators;
 
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Symfony\Component\Process\Process;
 use Illuminate\Support\Facades\DB;
-use CareSet\DURC\DURC;
+use ftrotter\DURC\DURC;
 
-class MustacheMenuGenerator extends \CareSet\DURC\DURCGenerator {
+class MustacheMenuGenerator extends \ftrotter\DURC\DURCGenerator {
 
 
 	//so that we target the same file the whole time..

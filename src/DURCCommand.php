@@ -4,7 +4,7 @@
 	When we remove it, things go haywire.. but it does not actually do anything.
 	Why cant we remove it more easily?
 */
-namespace CareSet\DURC;
+namespace ftrotter\DURC;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Symfony\Component\Process\Process;

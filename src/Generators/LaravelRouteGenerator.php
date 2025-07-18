@@ -5,15 +5,15 @@
 
 
 */
-namespace CareSet\DURC\Generators;
+namespace ftrotter\DURC\Generators;
 
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Symfony\Component\Process\Process;
 use Illuminate\Support\Facades\DB;
-use CareSet\DURC\DURC;
-class LaravelRouteGenerator extends \CareSet\DURC\DURCGenerator {
+use ftrotter\DURC\DURC;
+class LaravelRouteGenerator extends \ftrotter\DURC\DURCGenerator {
 
 
         //Run only once at the end of generation

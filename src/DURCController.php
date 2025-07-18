@@ -1,6 +1,6 @@
 <?php
 
-namespace CareSet\DURC;
+namespace ftrotter\DURC;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;

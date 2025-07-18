@@ -1,5 +1,5 @@
 <?php
-namespace CareSet\DURC;
+namespace ftrotter\DURC;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;

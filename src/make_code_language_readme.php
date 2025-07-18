@@ -13,6 +13,6 @@ You must choose which syntax to the editor should use by using one of the follow
 | -------------- | ------------------- |
 ";
 
-	foreach(\CareSet\DURC\DURC::$code_language_map as $label => $mode){
+	foreach(\ftrotter\DURC\DURC::$code_language_map as $label => $mode){
 		echo "|_$label"."_code | $mode |\n";
 	}
